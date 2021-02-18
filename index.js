@@ -17,7 +17,7 @@ window.addEventListener("load", () => {
     )
     .add(
       {
-        targets: ".home__grid",
+        targets: "",
         translateY: [1000, 0],
       },
       "-=50"
