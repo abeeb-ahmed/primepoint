@@ -428,6 +428,10 @@ footer {
   color: white;
   padding-top: 20px;
 }
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
 footer .grid-3 {
   grid-template-columns: 1fr 2fr 1fr;
 }

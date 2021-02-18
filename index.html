@@ -342,9 +342,20 @@
           <h4>Let us discuss on how to help you reduce your power cost.</h4>
         </div>
         <div class="form__container">
-          <form action="" method="POST">
+          <form
+            name="contact"
+            method="POST"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+          >
             <h5>Contact Us</h5>
             <fieldset>
+              <input type="hidden" name="form-name" value="contact" />
+              <p class="hidden">
+                <label
+                  >Don’t fill this out if you’re human: <input name="bot-field"
+                /></label>
+              </p>
               <input type="text" name="name" placeholder="Name" required />
             </fieldset>
             <fieldset>
